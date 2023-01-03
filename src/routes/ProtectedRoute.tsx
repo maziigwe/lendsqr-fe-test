@@ -1,7 +1,7 @@
 import React from 'react'
 //import { useAppContext } from 'containers/App/AppContext'
 import { Route, Redirect } from 'react-router-dom'
-import ROUTES from 'utils/constansts'
+import { ROUTES } from 'utils/constants'
 import { PrivateRouteProps } from 'interfaces/RouteProps'
 
 const PrivateRoute: React.FunctionComponent<PrivateRouteProps> = ({
@@ -14,7 +14,11 @@ const PrivateRoute: React.FunctionComponent<PrivateRouteProps> = ({
         <Route
             {...routeProps}
             render={(props) =>
-                isSignedIn ? <Component /> : <Redirect to={ROUTES.login} />
+                isSignedIn ? (
+                    <Component {...props} />
+                ) : (
+                    <Redirect to={ROUTES.login} />
+                )
             }
         />
     )
