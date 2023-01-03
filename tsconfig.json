@@ -1,39 +1,53 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "lib": [
-      "es6",
-      "dom",
-      "esnext.asynciterable",
-      "es2021"
-    ],
+    "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+
+    "baseUrl": "src",
+    // "esModuleInterop": true,
+    "experimentalDecorators": true,
+    // "isolatedModules": true,
+    // "jsx": "react-jsx",
+    // "lib": [
+    //   "es6",
+    //   "dom",
+    //   "esnext.asynciterable",
+    //   "es2021"
+    // ],
+    // "module": "esnext",
+    // "moduleResolution": "node",
+    // "noEmit": true,
+    // "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "outDir": "build/dist",
     "removeComments": true,
-    "resolveJsonModule": true,
+    // "resolveJsonModule": true,
     "rootDir": "src",
-    "skipLibCheck": true,
+    // "skipLibCheck": true,
     "sourceMap": true,
-    "strict": true,
+    // "strict": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "target": "es5"
+    "suppressImplicitAnyIndexErrors": true
   },
+  "include": ["src"],
   "exclude": [
+    "node_modules",
     "node_modules",
     "build",
     "scripts",
@@ -42,7 +56,5 @@
     "jest",
     "src/setupTests.ts"
   ],
-  "include": [
-    "src"
-  ]
+  "extends": "./tsconfig.paths.json"
 }
