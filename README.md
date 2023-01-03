@@ -1,36 +1,45 @@
-# Getting Started with Create React App
+# LENDSQR FRONTEND ENGINEER ASSESSMENT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [ManiacMaxo](https://github.com/ManiacMaxo/cra-template) template.
+<p id="description"> This is an interview project. This <a href="https://netlify.com" target="_blank">project</a> is hosted on Netlify.</p>
 
-## Available Scripts
+<h2>🧐 Features</h2>
 
-In the project directory, you can run:
+Here're some of the project's features:
 
-### `yarn start`
+-   Login page.
+-   Dashboard page.
+-   Users page.
+-   User page.
+<h2>Link to figma design<h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a href="https://www.figma.com/file/ZKILoCoIoy1IESdBpq3GNC/Lendsqr-Frontend-Engineering-Assessment?node-id=5530%3A0&t=JKYOmV5oUC4RZemu-0" target="_blank">Figma Design link</a>
 
-### `yarn test`
+<h2>🛠️ Installation Steps:</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>2. clone the repo</p>
 
-### `yarn build`
+```
+git clone https://github.com/maziigwe/lendsqr-fe-test.git your_project_name
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>3. install dependencies</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>4. start development server in a watch mode</p>
 
-## Learn More
+```
+npm watch
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2>💻 Built with</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Technologies used in the project:
+
+-   React
+-   Typescript
+-   Tailwind CSS
+-   SCSS
