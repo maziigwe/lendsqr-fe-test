@@ -4,7 +4,7 @@ import { AppIcon } from 'components/atoms/AppIcon'
 
 const DashboardPage: React.FC = () => {
     const props = {
-        title: 'My Dashboard',
+        title: 'Dashboard',
         description: 'Welcome to the dashboard page'
     }
     return (

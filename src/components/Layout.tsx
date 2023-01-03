@@ -2,16 +2,16 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 interface Props {
-    title?: string
+    title: string
     description?: string
     children?: object
 }
 
-const Layout: React.FC<Props> = (props) => {
+const Layout: React.FC<Props> = ({ ...props }) => {
     const {
         children,
-        title = 'Login Page',
-        description = 'This is the login page'
+        title = props.title,
+        description = props.description
     } = props
 
     return (
