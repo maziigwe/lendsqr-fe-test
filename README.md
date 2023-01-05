@@ -1,6 +1,8 @@
 # LENDSQR FRONTEND ENGINEER ASSESSMENT
 
-<p id="description"> This is an interview project. This <a href="https://netlify.com" target="_blank">project</a> is hosted on Netlify.</p>
+<p id="description"> This is an interview project. 
+This <a href="https://igwe-acha-lendsqr-fe-test.netlify.app" target="_blank"> 
+project</a> is hosted on Netlify.</p>
 
 <h2>🧐 Features</h2>
 
@@ -11,7 +13,6 @@ Here're some of the project's features:
 -   Users page.
 -   User page.
 <h2>Link to figma design<h2>
-
 
 <a href="https://www.figma.com/file/ZKILoCoIoy1IESdBpq3GNC/Lendsqr-Frontend-Engineering-Assessment?node-id=5530%3A0&t=JKYOmV5oUC4RZemu-0" target="_blank">Figma Design link</a>
 
