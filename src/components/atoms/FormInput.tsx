@@ -22,7 +22,7 @@ export const FormInput = ({ name, id, type, label, placeholder }: Props) => {
                 <></>
             )}
             {type === 'password' ? (
-                <div className='show-password top-1/3 right-2'>SHOW</div>
+                <div className='show-password top-5 right-2'>SHOW</div>
             ) : (
                 <></>
             )}
