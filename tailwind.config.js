@@ -37,10 +37,19 @@ module.exports = {
                 'monospace'
             ]
         },
-        extend: {}
+        extend: {
+            colors: {
+                primary_text_color: '#213F7D',
+                secondary_text_color_1: '#545F7D',
+                tertiary_color: '#39CDCC'
+            },
+            fontFamily: {
+                sans: ['Avenir Next', 'sans-serif']
+            }
+        }
     },
     variants: {
         extend: {}
     },
-    plugins: []
+    plugins: [require('postcss-import')]
 }
