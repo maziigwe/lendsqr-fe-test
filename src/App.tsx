@@ -14,7 +14,7 @@ const App = () => {
     return (
         <Suspense fallback='loading...'>
             <Switch>
-                <Route exact path={ROUTES.home} component={Home} />
+                <Route exact path={ROUTES.home} component={LoginPage} />
                 <Route exact path={ROUTES.login} component={LoginPage} />
 
                 <PrivateRoute

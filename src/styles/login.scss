@@ -1,0 +1,70 @@
+.welcome_text {
+    width: 183px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+}
+.login_subtitle {
+    font-size: 1.25rem;
+    width: 194px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.custom-bg-color {
+    background: #ffffff;
+    box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+}
+.form-input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    left: 836px;
+    top: 368px;
+    background: #ffffff;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    border-radius: 5px;
+}
+.show-password {
+    position: absolute;
+    width: 49.41px;
+    height: 12.5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    // text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #39cdcc;
+}
+.forgot-password {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #39cdcc;
+}
+.sign-in_btn {
+    width: 100%;
+    height: 50px;
+    background: #39cdcc;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: #efefef;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+.navbar {
+    margin-left: 6.0625rem;
+    margin-top: 6.625rem;
+}
